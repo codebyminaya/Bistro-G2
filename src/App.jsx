@@ -1,14 +1,12 @@
-import React from 'react'
-import Home from './pages/Home'
-import About from './pages/About'
+import React from 'react';
+import Resad2 from './components/Resad2/Resad2';
 
 const App = () => {
   return (
     <div>
-      <Home/>
-      <About/>
+      <Resad2 />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

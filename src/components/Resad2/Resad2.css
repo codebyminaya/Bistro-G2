@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.umumi {
+  width: 100%;
+  background-color: #fcfcfc;
+}
+
+
+.yuxarisekil {
+  height: 550px;
+  background-image: url('../../assets/Gemini_Generated_Image_h19cx9h19cx9h19c.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.basyazi {
+  z-index: 2;
+  position: relative;
+}
+
+.basyazi h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+  color: #111;
+  font-weight: bold;
+}
+
+.basyazi p {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 25px;
+}
+
+.buton {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.qirmizi {
+  background-color: #b52b36;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.ag {
+  background-color: white;
+  color: #111;
+  border: 1px solid #ccc;
+  padding: 12px 25px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+.menuolcu {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.ortayazi h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+
+.kartkonteynr {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+
+.kartlar {
+  background: white;
+  width: 250px;
+  padding: 35px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+  text-align: center;
+  border: 1px solid #eee;
+}
+
+
+.ikonlar {
+  width: 60px;
+  height: 60px;
+  background-color: #f4f4f4;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 20px auto;
+  font-size: 22px;
+  color: #b52b36;
+}
+
+.kartlar h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.kartlar p {
+  font-size: 13px;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.kartmenu {
+  color: #b52b36;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
