@@ -1,0 +1,111 @@
+@import 'https://googleapis.com';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.esas {
+    width: 100%;
+    height: 100vh;
+    background-color: #F9F9F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .orta {
+        width: 88%;
+        height: 80%;
+        background-color: #F9F9F7;
+        display: flex;
+        .sekil {
+            width: 50%;
+            height: 90%;
+            position: relative;
+            img {
+                width: 100%;
+                height: 100%;
+                z-index: 1;
+            }
+            .qara {
+                width: 410px;
+                height: 310px;
+                background-color: #474747;
+                font-family: 'DM Sans', sans-serif;
+                color: white;
+                padding: 30px;
+                border-radius: 12px;
+                position: absolute;
+                z-index: 2;
+                bottom: -58px;
+                left: 300px;
+                h3 {
+                    margin-top: 0;
+                    margin-bottom: 50px;
+                    font-size: 26px;
+                    font-weight: 700;
+                }
+                .elaqe {
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+                    margin-bottom: 25px;
+                    font-size: 17px;
+                    .ikonn {
+                        font-size: 27px;
+                        flex-shrink: 0;
+                    }
+                    .spi{
+                        color: #F9F9F7;
+                    }
+                }
+            }
+        }
+        .yazi{
+            width: 50%;
+            height: 85%;
+            background-color: #F9F9F7;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            .yazilar{
+                width: 80%;
+                height: 80%;
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                .we{
+                    font-size: 58px;
+                    color: #2C2F24;
+                    line-height: 60px;
+                    letter-spacing: 0px;
+                    font-weight: 500;
+                    font-family: 'Playfair Display', serif;
+                }
+                .our{
+                    font-size: 20px;
+                    color: #2C2F24;
+                    font-weight: 500;
+                    line-height: 28px;
+                    letter-spacing: 0px;
+                    text-align: start;
+                    font-family: 'DM Sans', sans-serif;
+                }
+                .at{
+                    font-size: 16px;
+                    color: #414536;
+                    line-height: 24px;
+                    letter-spacing: 0px;
+                    font-family: 'DM Sans', sans-serif;
+                }
+                .more{
+                    width: 140px;
+                    padding: 14px 0;
+                    background-color: #F9F9F7;
+                    border: solid 2px black;
+                    cursor: pointer;
+                    border-radius: 20px;
+                }
+            }
+        }
+    }
+}
