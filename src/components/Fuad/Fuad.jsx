@@ -1,7 +1,10 @@
-const Fuad = () => {
+
+function Fuad() {
   return (
-    <div>Fuad</div>
-  )
+    <>
+    
+    </>
+  );
 }
 
-export default Fuad
+export default Fuad;
