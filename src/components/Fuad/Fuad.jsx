@@ -1,10 +1,6 @@
-import React from 'react'
-
 const Fuad = () => {
   return (
-    <div>
-      
-    </div>
+    <div>Fuad</div>
   )
 }
 
