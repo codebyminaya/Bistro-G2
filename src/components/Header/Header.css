@@ -1,0 +1,227 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  width: 100%;
+  max-width: 100%;
+  font-family: "DM Sans", sans-serif;
+  color: #292d24;
+  background-color: #f9f9f7;
+  overflow-x: hidden;
+  
+}
+
+
+
+.head-top {
+  width: 100%;
+  height: 50px;
+  background-color: #414141;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.head-top > div {
+  width: 82%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.first-icon {
+  display: flex;
+  align-items: center;
+    gap: 15px;
+  min-width: 0;
+}
+
+.top-icons,
+.second-icon {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  min-width: 0;
+ 
+}
+
+.top-icons i,
+.second-icon i {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 18px;
+  font-size: 17px;
+  line-height: 1;
+  color: #ffffff;
+}
+
+.top-icons p,
+.second-icon p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #ffffff;
+}
+
+.third-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  flex-shrink: 0;
+ 
+  transform: translateX(930px);
+
+}
+
+.third-icon i {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 34px;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: #595959;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+
+
+.head-main {
+  width: 100%;
+  min-height: 104px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: #f9f9f7;
+  padding-left: 9%;
+  padding-right: 9%;
+}
+
+
+
+.head-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.head-logo img {
+  display: block;
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+}
+
+.head-logo i {
+  color: #484848;
+  font-family: "Playfair Display", serif  !important;
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 1;
+ 
+}
+
+.head-logo strong {
+  font-weight: 700;
+}
+
+
+
+.head-main nav {
+  display: flex;
+  align-items: center;
+}
+
+.head-main nav ul {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.head-main nav li {
+  display: flex;
+  align-items: center;
+}
+
+.head-main nav a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding-left: 17px;
+  padding-right: 17px;
+  border-radius: 30px;
+  color: #292d24;
+  font-size: 17px;
+  font-weight: 500;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.head-main nav a:hover {
+  background-color: #e8e9df;
+}
+
+.head-main nav a.a-home {
+  background-color: #dfe2d2;
+}
+
+/* BOOK A TABLE */
+
+.head-btn {
+  flex-shrink: 0;
+}
+
+.head-btn button {
+  width: 178px;
+  height: 58px;
+  border: 2px solid #303329;
+  border-radius: 35px;
+  background-color: transparent;
+  color: #292d24;
+  font-family: "DM Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.head-btn button:hover {
+  background-color: #303329;
+  color: #ffffff;
+}

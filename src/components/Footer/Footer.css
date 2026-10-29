@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(71, 71, 71, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-text{
+  
+    width: 363px;
+    height: 43%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    p{
+        font-size: 20px;
+        font-weight: 400;
+        font-family: "DM Sans", sans-serif;
+        color: rgba(173, 178, 158, 1);
+    }
+}
+.main-img{display: flex;
+    align-items: center;
+    height: 30%;
+    gap: 17px;
+
+  
+   .l3{
+    width: 65px;
+    height: 65px;
+   }
+   i{
+    font-size: 37px;
+     font-family: "Playfair Display";
+     font-weight: 350;
+    color: white;
+   }
+}
+
+.main-icons{
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+  
+    i {
+        width: 33px;
+        height: 33px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        
+        background-color: rgba(173, 52, 62, 1)
+    }
+}
+.main {
+  width: 80%;
+  height: 70%;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  
+  
+}
+
+.main-pages {
+  display: flex;
+  justify-content: space-between;
+  width: 26%;
+  height: 70%;
+  color: rgba(219, 223, 208, 1);
+  font-family: "DM Sans", sans-serif;
+  font-size: clamp(14px, 1vw, 19px);
+  padding-top: 15px;
+  
+}
+
+.main-pages ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.main-pages ul li:first-child {
+  color: white;
+  font-weight: 600;
+  line-height: 2;
+}
+
+.main-pages ul li {
+  white-space: nowrap;
+}
+.main-photo{width: 31%;
+   
+    height: 50%;
+      .l1{
+        width: 480px;
+        height: 500px;
+        
+    }
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+  div{width: 100%;
+  
+    font-size: 20px;
+    color: white;
+  h4{
+      padding-top: 20px;
+      font-family: "DM Sans", sans-serif;
+  }
+}
+}
