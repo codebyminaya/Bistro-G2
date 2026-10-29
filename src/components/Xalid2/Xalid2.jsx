@@ -27,17 +27,17 @@ const reviews = [
 
 const Xalid2 = () => {
   return (
-    <section className="bg-white px-6 py-24">
-      <div className="mx-auto max-w-[1296px]">
+    <section className="w-[100%] bg-white px-6 py-24 flex justify-center bg-red-400">
+      <div className="flex justify-center flex-col">
         <h2 className="text-center font-['Playfair_Display',serif] text-5xl text-[#2b2b24] md:text-[56px]">
           What Our Customers Say
         </h2>
 
-        <div className="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="w-[100%]  mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-3 gap-[90px] mx-auto">
           {reviews.map((item) => (
             <div
               key={item.name}
-              className="flex flex-col rounded-2xl bg-[#f9f9f7] p-9"
+              className="flex flex-col rounded-2xl bg-[#f9f9f7] p-9 "
             >
               <h3 className="font-['DM_Sans',sans-serif] text-2xl font-medium text-[#a8303f]">
                 {item.title}
